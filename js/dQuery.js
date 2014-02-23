@@ -240,27 +240,7 @@
 
             return $(cur);
 
-        },
-        siblings:function(){
-            var nodeArray = [],
-                preNode = this.previousSibling,
-                nextNode = this.nextSibling;
-            while(preNode){
-                if(preNode.nodeType === 1){
-                    nodeArray.push(preNode);
-                }
-                preNode = preNode.previousSibling;
-            }
-            nodeArray.reverse();
-            while(nextNode){
-                if(nextNode.nodeType===1){
-                    nodeArray.push(nextNode);
-                }
-                nextNode = nextNode.nextSibling;
-            }
-            return $(nodeArray);
         }
-
     }
     dQuery.fn.init.prototype = dQuery.fn;
 
