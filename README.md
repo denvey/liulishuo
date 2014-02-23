@@ -21,9 +21,9 @@ liulishuo
 
    leaderboards.js js代码
 
-+home.html  主页
++ home.html  主页
 
-+index.html 其实这个应该是主页的，按照我自己的框架，这个是一个入口，home.html才是主页，所以才有了home.html。最后看时间不多了，也没有改过来
++ index.html 其实这个应该是主页的，按照我自己的框架，这个是一个入口，home.html才是主页，所以才有了home.html。最后看时间不多了，也没有改过来
 
 
 
