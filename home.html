@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="css/base.css" />
+    <!--<script type="text/javascript" src="js/appframework.min.js"></script>-->
+    <script type="text/javascript" src="js/dQuery.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+<div class="dQUi pt-page-cur" id="leaderboardPage">
+<div class="header">
+    <h1>排行榜</h1>
+</div>
+<ul class="tab">
+    <li class="left active">平均分榜</li>
+    <li class="right">人气榜</li>
+</ul>
+<div class="content" id="leaderboardWrapper">
+    <ul class="list hidden" id="leaderboardList">
+        <li class="cur">
+           <span class="leaderboardNo">1</span>
+           <img src="images/icon_Me.png" alt="" class="meImg"/>
+           <dl class="leaderboardBox">
+               <dt>
+                    <div class="titile">
+                        <h5 class="titileL">Crossin先生</h5>
+                        <span class="fraction fr">96.73</span>
+                    </div>
+                    <p class="meed1">奖品：Beats Tour 耳机<br />
+                        价值：1500元
+                    </p>
+               </dt>
+               <dd class="meed2">
+                   奖品：知名企业面试机会 <img src="images/interview.png" alt=""/>
+               </dd>
+           </dl>
+        </li>
+        <li>
+            <span class="leaderboardNo">2</span>
+            <img src="images/icon_Me.png" alt="" class="meImg"/>
+            <dl class="leaderboardBox">
+                <dt>
+                <div class="titile">
+                    <h5 class="titileL">Crossin先生</h5>
+                    <span class="fraction fr">96.73</span>
+                </div>
+                <p class="meed1">奖品：Beats Tour 耳机<br />
+                    价值：1500元
+                </p>
+                </dt>
+                <dd class="meed2">
+                    奖品：知名企业面试机会 <img src="images/interview.png" alt=""/>
+                </dd>
+            </dl>
+        </li>
+        <li>
+            <span class="leaderboardNo">2</span>
+            <img src="images/icon_Me.png" alt="" class="meImg"/>
+            <dl class="leaderboardBox">
+                <dt>
+                <div class="titile">
+                    <h5 class="titileL">Crossin先生</h5>
+                    <span class="fraction fr">96.73</span>
+                </div>
+                <p class="meed1">奖品：Beats Tour 耳机<br />
+                    价值：1500元
+                </p>
+                </dt>
+                <dd class="meed2">
+                    奖品：知名企业面试机会 <img src="images/interview.png" alt=""/>
+                </dd>
+            </dl>
+        </li>
+    </ul>
+</div>
+
+</div>
+<div id="tipsWrapper">
+    <div id="tipsBox"></div>
+    <div id="tips">
+        <h3>赢取特别大奖</h3>
+        <p>人气总榜冠军由用户投票产生，快让朋友来加油，赢取双人美国往返机票吧！</p>
+        <p><a class="btn">不要大奖</a> <a class="btn">去拉票</a></p>
+    </div>
+</div>
+<div class="footer">
+    <nav>
+        <ul>
+            <li><a id="eventDetail">活动详情</a></li>
+            <li><a id="leaderboard">排行榜</a></li>
+            <li><a id="winner">成绩公布</a></li>
+            <li><a id="me">我</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!--eventDetailPage-->
+<div class="dQUi" id="eventDetailPage">
+    <div class="content">
+        <p class="conCenter">活动详情</p>
+    </div>
+</div>
+
+<!--mePage-->
+<div class="dQUi" id="mePage">
+    <div class="content">
+        <p class="conCenter">我</p>
+    </div>
+</div>
+
+<script src="js/leaderboard.js"></script>
+</body>
+</html>
