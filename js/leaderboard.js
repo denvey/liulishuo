@@ -4,13 +4,13 @@
 $(function(){
     var state = window.localStorage.getItem("state") || 0;
     if(state == "0"){
-        $("#tipsWrapper").show();
+        /*$("#tipsWrapper").show();*/
         window.localStorage.setItem("state","1");
     }
     //nav
     $(".footer ul").on("click","a",function(){
         var pageId = $(this).attr("id");
-        console.log($("#"+pageId+"Page").siblings());
+        console.log($("li"));
         $("#"+pageId+"Page").addClass("pt-page-cur").siblings().removeClass("pt-page-cur");
     });
     //mock往后端发送请求后返回的数据
@@ -36,4 +36,5 @@ $(function(){
             that.addClass("cur");
         }
     });
+
 });
